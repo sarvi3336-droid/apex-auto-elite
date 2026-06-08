@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini Huracan EVO</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Apex Auto Elite</h2>
+
+        <div>
+            <a href="../index.html">Home</a>
+        </div>
+    </nav>
+
+    <section style="padding:40px;text-align:center;">
+
+        <h1>Lamborghini Huracan EVO</h1>
+
+        <p style="margin-top:10px;font-size:22px;font-weight:bold;">
+            ₹1,50,00,000
+        </p>
+
+    </section>
+
+    <div class="slider">
+
+        <img
+        id="mainImage"
+        src="../images/lambo1.jpg">
+
+    </div>
+
+    <div class="thumbs">
+
+        <img src="../images/lambo1.jpg" onclick="changeImage(this)">
+        <img src="../images/lambo2.jpg" onclick="changeImage(this)">
+        <img src="../images/lambo3.jpg" onclick="changeImage(this)">
+        <img src="../images/lambo4.jpg" onclick="changeImage(this)">
+        <img src="../images/lambo5.jpg" onclick="changeImage(this)">
+        <img src="../images/lambo6.jpg" onclick="changeImage(this)">
+
+    </div>
+
+    <section class="booking">
+
+        <h2>Book This Car</h2>
+
+        <form action="https://formspree.io/f/mnjydope" method="POST">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://sarvi3336-droid.github.io/apex-auto-elite/">
+            <input
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required>
+
+            <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required>
+
+            <input
+            type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            required>
+
+            <input
+            type="hidden"
+            name="car"
+            value="Lamborghini Huracan EVO">
+
+            <button type="submit">
+                Book Now
+            </button>
+
+        </form>
+
+    </section>
+
+    <a
+    href="https://wa.me/919043386315"
+    class="whatsapp"
+    target="_blank">
+        💬
+    </a>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
